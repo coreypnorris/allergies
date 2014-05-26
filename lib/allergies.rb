@@ -1,6 +1,6 @@
 def allergies(score)
   allergy_hash = {'strawberries' => 8,
-                  'cats' => 128, 
+                  'cats' => 128,
                   'chocolate' => 32,
                   'eggs' => 1,
                   'shellfish' => 4,
@@ -19,5 +19,3 @@ def allergies(score)
   end
   allergens
 end
-
-puts allergies(90)
